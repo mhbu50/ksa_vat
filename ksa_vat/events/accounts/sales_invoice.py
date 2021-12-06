@@ -8,7 +8,7 @@ import os
 from base64 import b64encode
 
 
-def create_qr_code(doc, method):
+def create_qr_code(doc, method=None):
 	"""Create QR Code after inserting Sales Inv
 	"""
 
@@ -118,7 +118,7 @@ def create_qr_code(doc, method):
 			break
 
 
-def delete_qr_code_file(doc, method):
+def delete_qr_code_file(doc, method=None):
 	"""Delete QR Code on deleted sales invoice"""
 
 	region = get_region(doc.company)
