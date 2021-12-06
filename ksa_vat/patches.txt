@@ -1,0 +1,1 @@
+ksa_vat.patches.create_qr_code
